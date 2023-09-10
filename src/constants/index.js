@@ -30,7 +30,7 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "home",
     title: "About",
   },
   {
@@ -292,48 +292,48 @@ const projects = [
     image: shoppy,
     source_code_link: "https://cc-dashboard-admin.vercel.app",
   },
-  {
-    name: "Beats Store",
-    description:
-      "Beats Store's landing page that allows users to view product details, explore new products through a responsive design and smooth animations.",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: beats,
-    source_code_link: "https://cc-beats-headphones.netlify.app",
-  },
-  {
-    name: "Geritch",
-    description:
-      "Web application that empowers users to unlock the flavors of the industry by seamlessly connecting with a world of dining experiences.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Animations",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Mobile-first",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: geritch,
-    source_code_link: "https://cc-geritch.netlify.app",
-  },
+  // {
+  //   name: "Beats Store",
+  //   description:
+  //     "Beats Store's landing page that allows users to view product details, explore new products through a responsive design and smooth animations.",
+  //   tags: [
+  //     {
+  //       name: "Html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: beats,
+  //   source_code_link: "https://cc-beats-headphones.netlify.app",
+  // },
+  // {
+  //   name: "Geritch",
+  //   description:
+  //     "Web application that empowers users to unlock the flavors of the industry by seamlessly connecting with a world of dining experiences.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Animations",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Mobile-first",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: geritch,
+  //   source_code_link: "https://cc-geritch.netlify.app",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

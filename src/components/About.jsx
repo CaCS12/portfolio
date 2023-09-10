@@ -3,9 +3,9 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+// import { services } from "../constants";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -43,7 +43,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Who am I?</h2>
       </motion.div>
 
-      <motion.p
+      {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
@@ -52,13 +52,13 @@ const About = () => {
         Next.js. I'm a quick learner and collaborate closely with colleagues and clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+      </motion.p> */}
 
-      <div className='mt-20 flex justify-center flex-wrap gap-10'>
+      {/* <div className='mt-20 flex justify-center flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
