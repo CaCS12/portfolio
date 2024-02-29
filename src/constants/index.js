@@ -227,7 +227,7 @@ const projects = [
       },
     ],
     image: threadsclone,
-    source_code_link: "https://cc-threadsclone.vercel.app",
+    source_code_link: "https://github.com/CaleCabrera07/threads-clone",
   },
   {
     name: "AI News App",
@@ -248,7 +248,7 @@ const projects = [
       },
     ],
     image: alanai,
-    source_code_link: "https://cc-news-ai.vercel.app",
+    source_code_link: "https://github.com/CaleCabrera07/news-ai",
   },
   {
     name: "Quizmify",
@@ -269,7 +269,7 @@ const projects = [
       },
     ],
     image: quizmify,
-    source_code_link: "https://cc-quizmify.vercel.app",
+    source_code_link: "https://github.com/CaleCabrera07/quizmify",
   },
   {
     name: "Shoppy Dashboard",
@@ -290,7 +290,7 @@ const projects = [
       },
     ],
     image: shoppy,
-    source_code_link: "https://cc-dashboard-admin.vercel.app",
+    source_code_link: "https://github.com/CaleCabrera07/Dashboard-Demo",
   },
   // {
   //   name: "Beats Store",
