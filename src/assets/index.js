@@ -30,6 +30,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import threadsclone from "./threadsclone.png";
+import imagem from "./imagem.png";
+import figpro from "./figpro.png";
 import beats from "./beats.png";
 import geritch from "./geritch.png";
 import alanai from "./alanai.png";
@@ -66,6 +68,8 @@ export {
   starbucks,
   tesla,
   threadsclone,
+  imagem,
+  figpro,
   beats,
   geritch,
   alanai,

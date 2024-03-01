@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -20,18 +19,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Carlos</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Software Developer &
-            Computer Engineering Student
+          Software Engineer | Seeking Front-end Developer Position
           </p>
           <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-6 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-6 text-secondary text-[17px] max-w-prose leading-[30px]'
         >
-          I'm a skilled software developer with experience in JavaScript and TypeScript,
-          along vast expertise in technologies like Node.js, React and
-          Next.js. <br /><br />I'm a quick learner and collaborate closely with colleagues and clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          Dedicated and forward-thinking Software Engineer with a specialization in Frontend Development. My approach is characterized by a proactive problem-solving mindset, always aiming to deliver top-tier code quality through adherence to best practices. Committed to continuous professional development, I stay informed of the latest technologies and industry trends to ensure my contributions are innovative and effective.
         </motion.p>
         <div className="hidden min-[350px]:block">
           <a href="#projects">

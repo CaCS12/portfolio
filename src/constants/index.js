@@ -20,12 +20,14 @@ import {
   starbucks,
   tesla,
   shopify,
+  figpro,
   threadsclone,
+  imagem,
+  shoppy,
   beats,
+  quizmify,
   geritch,
   alanai,
-  quizmify,
-  shoppy
 } from "../assets";
 
 export const navLinks = [
@@ -209,6 +211,56 @@ const testimonials = [
 
 const projects = [
   {
+    name: "FigPro",
+    description:
+      "Design collaboration with features like multi-cursor support, cursor chat, reactions, and active user display, enabling seamless real-time interaction and feedback among team members directly on the canvas.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Liveblocks",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Fabric.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: figpro,
+    source_code_link: "https://cc-figpro.vercel.app/",
+  },
+  {
+    name: "ImaGem",
+    description:
+      "AI image platform that excels in image processing capabilities, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imagem,
+    source_code_link: "https://cc-imagem.vercel.app/",
+  },
+  {
     name: "Threads Clone",
     description:
       "Threads Clone is a social media app that allows users to share their thoughts. Experience social media with ease, where conversations flow naturally.",
@@ -222,54 +274,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Tailwind",
+        color: "orange-text-gradient",
+      },
+      {
         name: "Clerk",
         color: "pink-text-gradient",
       },
     ],
     image: threadsclone,
-    source_code_link: "https://github.com/CaleCabrera07/threads-clone",
-  },
-  {
-    name: "AI News App",
-    description:
-      "Voice controlled React News Application using Alan AI. Users can interact with the application by using their voice to fetch news from various sources.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "AlanAI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Vite",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: alanai,
-    source_code_link: "https://github.com/CaleCabrera07/news-ai",
-  },
-  {
-    name: "Quizmify",
-    description:
-      "Quizmify is a platform for creating quizzes using AI! Be a quizmaster yourself! Showcase your knowledge and create and share your own quizzes with the world.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "OpenAI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: quizmify,
-    source_code_link: "https://github.com/CaleCabrera07/quizmify",
+    source_code_link: "https://cc-threadsclone.vercel.app/",
   },
   {
     name: "Shoppy Dashboard",
@@ -285,13 +299,59 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "TypeScript",
+        color: "orange-text-gradient",
+      },
+      {
         name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: shoppy,
-    source_code_link: "https://github.com/CaleCabrera07/Dashboard-Demo",
+    source_code_link: "https://cc-dashboard-admin.vercel.app/",
   },
+  // {
+  //   name: "Quizmify",
+  //   description:
+  //     "Quizmify is a platform for creating quizzes using AI! Be a quizmaster yourself! Showcase your knowledge and create and share your own quizzes with the world.",
+  //   tags: [
+  //     {
+  //       name: "Next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenAI",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Prisma",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: quizmify,
+  //   source_code_link: "https://github.com/CaleCabrera07/quizmify",
+  // },
+    // {
+  //   name: "AI News App",
+  //   description:
+  //     "Voice controlled React News Application using Alan AI. Users can interact with the application by using their voice to fetch news from various sources.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "AlanAI",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Vite",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: alanai,
+  //   source_code_link: "https://github.com/CaleCabrera07/news-ai",
+  // },
   // {
   //   name: "Beats Store",
   //   description:
