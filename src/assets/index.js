@@ -32,6 +32,8 @@ import tesla from "./company/tesla.png";
 import threadsclone from "./threadsclone.png";
 import imagem from "./imagem.png";
 import figpro from "./figpro.png";
+import storeit from "./storeit.png";
+import arkanoid from "./arkanoid.png";
 import beats from "./beats.png";
 import geritch from "./geritch.png";
 import alanai from "./alanai.png";
@@ -75,4 +77,6 @@ export {
   alanai,
   quizmify,
   shoppy,
+  storeit,
+  arkanoid,
 };

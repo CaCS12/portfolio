@@ -21,6 +21,8 @@ import {
   tesla,
   shopify,
   figpro,
+  storeit,
+  arkanoid,
   threadsclone,
   imagem,
   shoppy,
@@ -211,6 +213,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "StoreIt",
+    description:
+      "Storage management platform designed to help you manage your documents, images, and files efficiently. It provides a secure and easy-to-use interface to manage your files online similar to Google Drive/Dropbox/OneDrive.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Zod",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: storeit,
+    source_code_link: "https://cc-storeit.vercel.app/",
+  },
+  {
     name: "FigPro",
     description:
       "Design collaboration with features like multi-cursor support, cursor chat, reactions, and active user display, enabling seamless real-time interaction and feedback among team members directly on the canvas.",
@@ -234,56 +261,6 @@ const projects = [
     ],
     image: figpro,
     source_code_link: "https://cc-figpro.vercel.app/",
-  },
-  {
-    name: "ImaGem",
-    description:
-      "AI image platform that excels in image processing capabilities, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Cloudinary",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Stripe",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: imagem,
-    source_code_link: "https://cc-imagem.vercel.app/",
-  },
-  {
-    name: "Threads Clone",
-    description:
-      "Threads Clone is a social media app that allows users to share their thoughts. Experience social media with ease, where conversations flow naturally.",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Clerk",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: threadsclone,
-    source_code_link: "https://cc-threadsclone.vercel.app/",
   },
   {
     name: "Shoppy Dashboard",
@@ -310,6 +287,31 @@ const projects = [
     image: shoppy,
     source_code_link: "https://cc-dashboard-admin.vercel.app/",
   },
+  {
+    name: "Arkanoid",
+    description:
+      "Classic arcade game where players control a paddle to bounce a ball and break bricks. Arkanoid offers a nostalgic yet challenging experience for gamers of all ages.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Canvas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: arkanoid,
+    source_code_link: "https://cc-arkanoid.vercel.app/",
+  },
   // {
   //   name: "Quizmify",
   //   description:
@@ -331,7 +333,7 @@ const projects = [
   //   image: quizmify,
   //   source_code_link: "https://github.com/CaleCabrera07/quizmify",
   // },
-    // {
+  // {
   //   name: "AI News App",
   //   description:
   //     "Voice controlled React News Application using Alan AI. Users can interact with the application by using their voice to fetch news from various sources.",
